@@ -25,5 +25,5 @@ jobs:
           who-to-greet: ${{ inputs.who-to-greet }}
       - name: Print current time
         run: | 
-              echo 
+              echo $TIME 
         
