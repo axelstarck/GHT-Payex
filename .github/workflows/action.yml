@@ -1,4 +1,4 @@
-name: Example Workflow
+name: Docker test
 
 on:
   workflow_dispatch:
