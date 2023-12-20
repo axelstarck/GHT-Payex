@@ -11,6 +11,12 @@ on:
   schedule:
     - cron: "15 6 7 * *"
   workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Environment to run'
+        required: true
+        default: main
+        type: environment
 jobs:
   Build:
     runs-on: ubuntu-latest
